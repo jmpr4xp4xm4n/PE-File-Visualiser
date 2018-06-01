@@ -5,7 +5,7 @@ Instructions for use:
 
 To run the script in the command line:
 
-python getpe.pyc -i testfile.exe
+python getpe.py -i testfile.exe
 
 It will produce file "testfile.exe.png" in the current folder.
 You can specify the output filename in command line with parameter -o outfilename.
@@ -19,6 +19,6 @@ For example testfile2.exe is a self-extracting archive and you can see that the 
 You will also need to install Python's module "Pillow" for windows/linux.
 
 Then it should work if these files are in current directory:
-* getpe.pyc
-* pefile.pyc
+* getpe.py
+* pefile.py
 * Arial_Bold.ttf
